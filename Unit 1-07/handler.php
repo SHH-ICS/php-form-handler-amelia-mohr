@@ -6,6 +6,8 @@
 
   <body>
     
+    Welcome <?php echo $_POST["userName"]; ?>!<br>
+    
     <?php
     $userName = "";
     if ( isset( $_POST['userName'] ) ){
