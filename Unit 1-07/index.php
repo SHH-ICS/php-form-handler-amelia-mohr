@@ -23,15 +23,16 @@
     
     <form action="handler.php" method="post">
       <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" id="sample1">
+        <input class="mdl-textfield__input" type="text" id="sample1" name="userName">
         <label class="mdl-textfield__label" for="sample1">Name...</label>
       </div>
-      <div class="mdl-textfield mdl-js-textfield">
-        <input class="mdl-textfield__input" type="text" id="sample1">
-        <label class="mdl-textfield__label" for="sample1">Email...</label>
-      </div>
+      <input type="submit">
+        <button class="mdl-button mdl-js-button mdl-button--accent">
+          Submit
+        </button>
+      </input>
+    </form>
       
     
   </body>
-  
 </html>
